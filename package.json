@@ -1,0 +1,19 @@
+{
+  "name": "tlezip.dev",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tlezip/tlezip.dev.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Tlezip/tlezip.dev/issues"
+  },
+  "homepage": "https://github.com/Tlezip/tlezip.dev#readme"
+}
