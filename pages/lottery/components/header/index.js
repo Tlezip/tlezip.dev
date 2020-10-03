@@ -1,4 +1,4 @@
-import { map } from 'lodash'
+import { map, isArray, join } from 'lodash'
 
 import './index.scss'
 
@@ -32,6 +32,11 @@ const getRewardData = rewardType => {
   }
 }
 
+const renderlotteryNumber = lotteryNumbers => {
+  if (isArray(lotteryNumbers)) return join(lotteryNumbers, ' ')
+  return lotteryNumbers
+}
+
 const LotteryHeader = ({ title, rewards}) => (
   <div class="lottery-header">
     <div class="lottery-header__title-wrapper">
@@ -48,7 +53,7 @@ const LotteryHeader = ({ title, rewards}) => (
                   {rewardName}
                 </div>
                 <div class={`lottery-header__reward-number text ${rewardClass}`}>
-                  {lotteryNumber}
+                  {renderlotteryNumber(lotteryNumber)}
                 </div>
                 <div class="lottery-header__reward-description">
                   {description}
