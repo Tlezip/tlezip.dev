@@ -1,11 +1,14 @@
 import { Router } from 'preact-router'
+import 'normalize.css';
 
 import LotteryPage from '../pages/lottery'
 
 const App = () => (
-  <Router>
-    <LotteryPage path="/lottery" />
-  </Router>
+  <div id="app">
+    <Router>
+      <LotteryPage path="/" />
+    </Router>
+  </div>
 )
 
 export default App
