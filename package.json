@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/Tlezip/tlezip.dev#readme",
   "dependencies": {
+    "normalize.css": "^8.0.1",
     "preact": "^10.5.3",
     "preact-router": "^3.2.1"
   },
