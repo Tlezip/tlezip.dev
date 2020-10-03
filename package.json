@@ -18,10 +18,12 @@
   },
   "homepage": "https://github.com/Tlezip/tlezip.dev#readme",
   "dependencies": {
-    "node-sass": "^4.14.1",
     "preact": "^10.5.3",
+    "preact-router": "^3.2.1"
+  },
+  "devDependencies": {
+    "node-sass": "^4.14.1",
     "preact-cli": "^3.0.3",
-    "preact-router": "^3.2.1",
     "sass-loader": "^10.0.2"
   }
 }
