@@ -1,6 +1,18 @@
 .text {
   font-size: 16px;
 
+  &--large-4 {
+    font-size: 40px;
+  }
+
+  &--large-3 {
+    font-size: 32px;
+  }
+
+  &--large-2 {
+    font-size: 24px;
+  }
+
   &--large {
     font-size: 20px;
   }
