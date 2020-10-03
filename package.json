@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "node index.js"
+    "dev": "preact watch"
   },
   "repository": {
     "type": "git",
@@ -16,5 +16,12 @@
   "bugs": {
     "url": "https://github.com/Tlezip/tlezip.dev/issues"
   },
-  "homepage": "https://github.com/Tlezip/tlezip.dev#readme"
+  "homepage": "https://github.com/Tlezip/tlezip.dev#readme",
+  "dependencies": {
+    "node-sass": "^4.14.1",
+    "preact": "^10.5.3",
+    "preact-cli": "^3.0.3",
+    "preact-router": "^3.2.1",
+    "sass-loader": "^10.0.2"
+  }
 }
