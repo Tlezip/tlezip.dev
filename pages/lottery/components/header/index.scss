@@ -4,6 +4,10 @@
   width: 100%;
 }
 
+.lottery-header__title-wrapper {
+  padding: 8px 0 0 8px;
+}
+
 .lottery-header__reward-wrapper {
   display: flex;
   align-items: center;
@@ -17,3 +21,14 @@
   flex-direction: column;
   align-items: center;
 }
+
+.lottery-header__reward-number {
+  margin: 8px 0;
+  height: 36px;
+  display: flex;
+  align-items: center;
+}
+
+.lottery-header__reward-number.text--large-3 {
+  color: #d12530;
+} 
