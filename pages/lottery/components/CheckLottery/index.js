@@ -25,6 +25,7 @@ const CheckLottery = () => {
 
   const handleChangeInput = e => {
     setLotteryNumber(e.target.value)
+    setChecked(false)
   }
 
   const handleSelectDate = date => {
