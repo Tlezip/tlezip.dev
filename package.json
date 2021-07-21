@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/Tlezip/tlezip.dev#readme",
   "dependencies": {
+    "dayjs": "^1.10.6",
     "normalize.css": "^8.0.1",
     "preact": "^10.5.3",
     "preact-router": "^3.2.1"
@@ -26,6 +27,7 @@
     "lodash": "^4.17.20",
     "node-sass": "^4.14.1",
     "preact-cli": "^3.0.3",
+    "preact-cli-plugin-env-vars": "^1.2.1",
     "sass-loader": "^10.0.2"
   }
 }
