@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "preact watch"
+    "dev": "preact watch",
+    "build": "preact build"
   },
   "repository": {
     "type": "git",
@@ -18,14 +19,17 @@
   },
   "homepage": "https://github.com/Tlezip/tlezip.dev#readme",
   "dependencies": {
+    "dayjs": "^1.10.6",
     "normalize.css": "^8.0.1",
     "preact": "^10.5.3",
+    "preact-render-to-string": "^5.1.19",
     "preact-router": "^3.2.1"
   },
   "devDependencies": {
     "lodash": "^4.17.20",
     "node-sass": "^4.14.1",
     "preact-cli": "^3.0.3",
+    "preact-cli-plugin-env-vars": "^1.2.1",
     "sass-loader": "^10.0.2"
   }
 }

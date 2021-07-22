@@ -1,0 +1,35 @@
+.check-lottery {
+  display: flex;
+  position: relative;
+}
+
+.check-lottery__input {
+  padding: 8px;
+  border-radius: 8px;
+  outline: none;
+  border: 1px solid #C4C4C4;
+  margin-right: 16px;
+}
+
+.check-lottery__submit-button {
+  border-radius: 8px;
+  border: 1px solid grey;
+  margin-left: 16px;
+  cursor: pointer;
+  outline: none;
+}
+
+.check-lottery__result {
+  position: absolute;
+  top: calc(100% + 10px);
+  width: 100%;
+  text-align: center;
+}
+
+.check-lottery__result--win {
+  color: black;
+}
+
+.check-lottery__result--lose {
+  color: red;
+}

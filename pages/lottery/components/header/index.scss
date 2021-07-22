@@ -15,11 +15,32 @@
   height: 150px;
 }
 
+.lottery-header__check-lottery {
+  width: 100%;
+  min-height: 150px;
+  background: #FFFFFF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .lottery-header__reward {
+  position: relative;
   display: flex;
   flex-grow: 1;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.lottery-header__reward:after {
+  content: '';
+  position: absolute;
+  right: 0;
+  height: 80px;
+  width: 1px;
+  background: #979797;
 }
 
 .lottery-header__reward-number {
@@ -32,3 +53,55 @@
 .lottery-header__reward-number.text--large-3 {
   color: #d12530;
 } 
+
+.lottery-header__more-reward {
+  background: #E4E4E4;
+  overflow: hidden;
+  padding: 16px 8px 20px;
+}
+
+.lottery-header__third-prize-reward {
+  background: #F4F4F4;
+}
+
+.lottery-header__second-prize-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -1px;
+  padding: 0 20px;
+}
+
+.lottery-header__second-prize {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 150px;
+  min-height: 60px;
+  position: relative;
+}
+
+.lottery-header__second-prize:after {
+  content: '';
+  position: absolute;
+  right: 0;
+  height: 40px;
+  width: 1px;
+  background: #979797;
+}
+
+.lottery-header__second-prize:before {
+  content: '';
+  position: absolute;
+  left: -1px;
+  height: 40px;
+  width: 1px;
+  background: #979797; 
+}
+
+.lottery-header__forth-prize-reward {
+  background: #F8F8F8;
+}
+
+.lottery-header__fifth-prize-reward {
+  background: #FCFCFC;
+}
